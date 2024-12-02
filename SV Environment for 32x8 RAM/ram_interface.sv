@@ -1,6 +1,6 @@
 // Code your design here
 
-`include ram_parameter.sv"
+`include "ram_parameter.sv"
 
 interface ram_interface(input bit clk,rst);
   logic rd_en,wr_en;
