@@ -1,0 +1,5 @@
+SYNOPSYS VCS command - 
+vcs -lca -sverilog -debug_all -f filelist.txt -o simv
+
+CADENCE VIRTUOSO irun command - 
+irun -sv -access +rwc -top top -f fileloist.txt
